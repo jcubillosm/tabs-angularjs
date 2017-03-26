@@ -1,0 +1,19 @@
+<div class="responsive-tabs">
+  <div ng-repeat="tab in info" ng-click="toggle($index)"> <!--Keep this line-->
+    <div class="row"  ng-class="{'active': addClass($index)}"><!--Keep this line-->
+      <div class="col-md-7 col-md-offset-3">
+        <div>
+          <a  >{{tab.title}}</a>
+          <span>ICON</span>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-7 col-md-offset-3 content" ng-class="{'off':!isSet($index)}"><!--Keep this line-->
+        <div >
+          {{tab.description}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

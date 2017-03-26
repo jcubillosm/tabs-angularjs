@@ -1,0 +1,18 @@
+{
+  "tabs":
+  [{
+    "title":"tab-1",
+    "description": "tab número 1",
+    "state": "true"
+  },
+{
+    "title":"tab-2",
+    "description": "tab número 2",
+    "state": "true"
+  },
+  {
+    "title":"tab-3",
+    "description": "tab número 3 lorem3",
+    "state": "true"
+  }]
+}
